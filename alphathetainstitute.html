@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Theta Institute – Unlock Your Mind, Transform Your Life.</title>
+    <meta
+      name="description"
+      content="Alpha Theta Institute adalah lembaga pelatihan, konsultasi, dan sertifikasi profesional NLP, Hypnotherapy, dan Psikologi Terapan untuk transformasi hidup Anda."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full z-10">
+      <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-red-600">Alpha Theta Institute</h1>
+        <nav class="space-x-6 hidden md:block">
+          <a href="#beranda" class="text-gray-700 hover:text-red-600">Beranda</a>
+          <a href="#tentang" class="text-gray-700 hover:text-red-600">Tentang</a>
+          <a href="#layanan" class="text-gray-700 hover:text-red-600">Layanan</a>
+          <a href="#testimoni" class="text-gray-700 hover:text-red-600">Testimoni</a>
+          <a href="#kontak" class="text-gray-700 hover:text-red-600">Kontak</a>
+        </nav>
+        <a href="#kontak" class="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700 hidden md:block">Daftar</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="bg-gray-900 text-white text-center pt-32 pb-20 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-4xl font-bold mb-4">Unlock Your Mind, Transform Your Life.</h2>
+        <p class="mb-8 text-lg">Bangun Potensi Terbaikmu Bersama Mentor Tersertifikasi Internasional.</p>
+        <a href="#kontak" class="bg-red-600 px-6 py-3 rounded-md text-white font-semibold hover:bg-red-700">Daftar Sekarang</a>
+      </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="max-w-5xl mx-auto py-20 px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Tentang Kami</h2>
+      <p class="mb-8 text-center text-gray-600">Alpha Theta Institute adalah lembaga pelatihan, konsultasi, dan sertifikasi profesional yang berfokus pada <strong>NLP, Hypnotherapy, dan Psikologi Terapan</strong>. Kami berkomitmen membantu individu dan profesional membangun potensi terbaik mereka melalui pendekatan ilmiah di bidang mental dan emosional.</p>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4 text-red-600">Mengapa Memilih Kami?</h3>
+          <ul class="space-y-3 text-gray-700">
+            <li>✔️ Pendekatan ilmiah, spiritual, dan praktis</li>
+            <li>✔️ Mentor tersertifikasi internasional</li>
+            <li>✔️ Program yang dapat langsung dipraktikkan</li>
+            <li>✔️ Support & komunitas pembelajar seumur hidup</li>
+          </ul>
+        </div>
+        <div>
+          <img src="https://source.unsplash.com/600x400/?coaching,training" alt="Training" class="rounded-lg shadow-md">
+        </div>
+      </div>
+    </section>
+
+    <!-- Layanan Kami -->
+    <section id="layanan" class="bg-gray-50 py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Layanan Kami</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Pelatihan & Sertifikasi NLP</h3>
+            <p>Belajar ilmu komunikasi dan perubahan diri berbasis NLP.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Sertifikasi Hypnotherapy</h3>
+            <p>Menjadi hypnotherapist profesional dengan standar internasional.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Coaching & Konseling Personal</h3>
+            <p>Bimbingan pengembangan diri untuk kehidupan yang lebih efektif.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Corporate Training & Leadership</h3>
+            <p>Pelatihan kepemimpinan dan pengembangan SDM untuk perusahaan.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Spiritual Mental Health</h3>
+            <p>Keseimbangan mental dan spiritual untuk hidup lebih tenang.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Terapi Psikosomatik</h3>
+            <p>Pendekatan integratif untuk keluhan fisik berakar emosi.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+            <h3 class="font-semibold text-red-600 mb-2">Ruqyah Hypnotherapy</h3>
+            <p>Kombinasi ruqyah dan hypnotherapy untuk penyembuhan holistik.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section id="testimoni" class="py-20 px-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-12 text-gray-800">Testimoni Peserta</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <blockquote class="bg-gray-100 p-6 rounded-lg shadow text-gray-700 italic">“Setelah mengikuti NLP Practitioner di Alpha Theta Institute, cara berpikir dan komunikasi saya berubah total. Sangat aplikatif untuk karier dan keluarga.”<br><span class="font-semibold block mt-2">– Rini, HR Manager</span></blockquote>
+          <blockquote class="bg-gray-100 p-6 rounded-lg shadow text-gray-700 italic">“Program Hypnotherapy di sini membuka jalan karier baru saya sebagai praktisi kesehatan mental.”<br><span class="font-semibold block mt-2">– Fauzan, Therapist</span></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="bg-red-600 text-white text-center py-16 px-4">
+      <h2 class="text-3xl font-bold mb-4">Mari Unlock Potensi Terbaikmu</h2>
+      <p class="mb-6">Apapun tujuanmu – mengembangkan diri, membantu orang lain, atau memperkuat karier – kami siap mendampingi setiap langkahmu.</p>
+      <a href="#kontak" class="bg-white text-red-600 px-6 py-3 rounded-md font-semibold hover:bg-gray-200">Daftar Sekarang</a>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="bg-gray-900 text-white py-10 px-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <h2 class="text-xl font-bold mb-4">Hubungi Kami</h2>
+        <div class="space-y-2">
+          <a href="https://www.instagram.com/alphathetainstitute?igsh=MXZ4andzNXJzaGppZg==" target="_blank" class="block hover:text-red-400">Instagram</a>
+          <a href="https://www.tiktok.com/@alpha.thetainstit?_t=ZS-8yCcApbu2YW&_r=1" target="_blank" class="block hover:text-red-400">TikTok</a>
+          <a href="https://m.youtube.com/@alphathetainstitute" target="_blank" class="block hover:text-red-400">YouTube</a>
+          <a href="https://wa.me/6285136446642" target="_blank" class="block hover:text-red-400">WhatsApp</a>
+        </div>
+        <p class="mt-6">&copy; 2025 Alpha Theta Institute. All rights reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>
